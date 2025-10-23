@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function createFloatingHearts() {
-        const hearts = ['❤️', '�', '', '�', '�'];
+        const hearts = ['❤️'];
         const heartContainer = document.createElement('div');
         heartContainer.className = 'floating-hearts-container';
         document.body.appendChild(heartContainer);
@@ -194,4 +194,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Set posisi awal tombol No
     btnNo.style.left = '200px';
     btnNo.style.top = '0px';
+
 });
